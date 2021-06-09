@@ -215,6 +215,7 @@ spec:
         app: frontend
       annotations:
         sidecar.istio.io/rewriteAppHTTPProbers: "true"
+        sidecar.istio.io/logLevel: "debug"
     spec:
       serviceAccountName: default
       containers:
